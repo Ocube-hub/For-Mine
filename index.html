@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Her Love Story</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero-text">
+        <h1>For My Love</h1>
+        <p>Each page is a new question, each answer is a piece of our love story. Write freely and feel it stay with you.</p>
+      </div>
+      <button id="playMusic" class="music-button">Play the love song</button>
+    </header>
+
+    <main>
+      <div class="progress-row">
+        <span id="progressText">Page 1 of 10</span>
+        <div class="progress-bar"><div id="progressFill"></div></div>
+      </div>
+
+      <section class="page active" data-page="1">
+        <div class="page-image-wrap"><img class="page-image" src="images/heart.svg" alt="Soft heart illustration" /></div>
+        <h2>1. What do you love most about our time together?</h2>
+        <p>Tell me the first thing that fills your heart when you think about us.</p>
+        <textarea class="answer-input" placeholder="Write your answer here..."></textarea>
+        <div class="saved-note">Your answer is saved automatically for this page.</div>
+        <textarea class="answer-input" placeholder="Write your answer here..."></textarea>
+        <div class="button-row">
+          <button class="prev-btn">Back</button>
+          <button class="next-btn">Next</button>
+        </div>
+      </section>
+
+      <section class="page" data-page="3">
+        <h2>3. What is one thing you love about me?</h2>
+        <p>Describe the quality or gesture of mine that makes you smile the most.</p>
+        <textarea class="answer-input" placeholder="Write your answer here..."></textarea>
+        <div class="button-row">
+          <button class="prev-btn">Back</button>
+          <button class="next-btn">Next</button>
+        </div>
+      </section>
+
+      <section class="page" data-page="4">
+        <h2>4. How does our relationship make you feel?</h2>
+        <p>Use your words to describe the emotions you feel when we are together.</p>
+        <textarea class="answer-input" placeholder="Write your answer here..."></textarea>
+        <div class="button-row">
+          <button class="prev-btn">Back</button>
+          <button class="next-btn">Next</button>
+        </div>
+      </section>
+
+      <section class="page" data-page="5">
+        <h2>5. What is your favorite memory of us?</h2>
+        <p>Share the memory that you want to keep forever in your heart.</p>
+        <textarea class="answer-input" placeholder="Write your answer here..."></textarea>
+        <div class="button-row">
+          <button class="prev-btn">Back</button>
+          <button class="next-btn">Next</button>
+        </div>
+      </section>
+
+      <section class="page" data-page="6">
+        <h2>6. What are you most grateful for in our love?</h2>
+        <p>Tell me the little or big thing you appreciate most about us.</p>
+        <textarea class="answer-input" placeholder="Write your answer here..."></textarea>
+        <div class="button-row">
+          <button class="prev-btn">Back</button>
+          <button class="next-btn">Next</button>
+        </div>
+      </section>
+
+      <section class="page" data-page="2">
+        <div class="page-image-wrap"><img class="page-image" src="images/rose.svg" alt="Rose illustration" /></div>
+        <h2>2. When did you feel closest to me?</h2>
+        <p>Share the moment that made you feel our love most strongly.</p>
+        <textarea class="answer-input" placeholder="Write your answer here..."></textarea>
+        <div class="saved-note">Your answer is saved automatically for this page.</div>
+        <div class="button-row">
+          <button class="prev-btn">Back</button>
+          <button class="next-btn">Next</button>
+        </div>
+      </section>
+
+      <section class="page" data-page="3">
+        <div class="page-image-wrap"><img class="page-image" src="images/heart.svg" alt="Soft heart illustration" /></div>
+        <h2>3. What is one thing you love about me?</h2>
+        <p>Describe the quality or gesture of mine that makes you smile the most.</p>
+        <textarea class="answer-input" placeholder="Write your answer here..."></textarea>
+        <div class="saved-note">Your answer is saved automatically for this page.</div>
+        <div class="button-row">
+          <button class="prev-btn">Back</button>
+          <button class="next-btn">Next</button>
+        </div>
+      </section>
+
+      <section class="page" data-page="4">
+        <div class="page-image-wrap"><img class="page-image" src="images/rose.svg" alt="Rose illustration" /></div>
+        <h2>4. How does our relationship make you feel?</h2>
+        <p>Use your words to describe the emotions you feel when we are together.</p>
+        <textarea class="answer-input" placeholder="Write your answer here..."></textarea>
+        <div class="saved-note">Your answer is saved automatically for this page.</div>
+        <div class="button-row">
+          <button class="prev-btn">Back</button>
+          <button class="next-btn">Next</button>
+        </div>
+      </section>
+
+      <section class="page" data-page="5">
+        <div class="page-image-wrap"><img class="page-image" src="images/heart.svg" alt="Soft heart illustration" /></div>
+        <h2>5. What is your favorite memory of us?</h2>
+        <p>Share the memory that you want to keep forever in your heart.</p>
+        <textarea class="answer-input" placeholder="Write your answer here..."></textarea>
+        <div class="saved-note">Your answer is saved automatically for this page.</div>
+        <div class="button-row">
+          <button class="prev-btn">Back</button>
+          <button class="next-btn">Next</button>
+        </div>
+      </section>
+
+      <section class="page" data-page="6">
+        <div class="page-image-wrap"><img class="page-image" src="images/rose.svg" alt="Rose illustration" /></div>
+        <h2>6. What are you most grateful for in our love?</h2>
+        <p>Tell me the little or big thing you appreciate most about us.</p>
+        <textarea class="answer-input" placeholder="Write your answer here..."></textarea>
+        <div class="saved-note">Your answer is saved automatically for this page.</div>
+        <div class="button-row">
+          <button class="prev-btn">Back</button>
+          <button class="next-btn">Next</button>
+        </div>
+      </section>
+
+      <section class="page" data-page="7">
+        <div class="page-image-wrap"><img class="page-image" src="images/heart.svg" alt="Soft heart illustration" /></div>
+        <h2>7. What do you dream for our future?</h2>
+        <p>Write what you imagine for us in the days, months, and years ahead.</p>
+        <textarea class="answer-input" placeholder="Write your answer here..."></textarea>
+        <div class="saved-note">Your answer is saved automatically for this page.</div>
+        <div class="button-row">
+          <button class="prev-btn">Back</button>
+          <button class="next-btn">Next</button>
+        </div>
+      </section>
+
+      <section class="page" data-page="8">
+        <div class="page-image-wrap memory-photo">
+          <img class="page-image-full" src="images/girlfriend.jpg" alt="Our precious memory" />
+        </div>
+        <h2>8. Do you remember this moment?</h2>
+        <p>This is the photo that brought back all the old memories of you. Every look, every smile, reminds me why I fell for you.</p>
+        <textarea class="answer-input" placeholder="Tell me what this moment means to you..."></textarea>
+        <div class="saved-note">Your answer is saved automatically for this page.</div>
+        <div class="button-row">
+          <button class="prev-btn">Back</button>
+          <button class="next-btn">Next</button>
+        </div>
+      </section>
+
+      <section class="page" data-page="9">
+        <h2>9. Why should I marry you?</h2>
+        <p>Tell me all the reasons why I should spend forever with you.</p>
+        <textarea class="answer-input" placeholder="Write your answer here..."></textarea>
+        <div class="saved-note">Your answer is saved automatically for this page.</div>
+        <div class="button-row">
+          <button class="prev-btn">Back</button>
+          <button class="next-btn">Next</button>
+        </div>
+      </section>
+
+      <section class="page final" data-page="10">
+        <div class="page-image-wrap"><img class="page-image" src="images/rose.svg" alt="Rose illustration" /></div>
+        <h2>10. Will you be my wife?</h2>
+        <p>Answer this question from your heart, and add any words you want to share.</p>
+        <textarea class="answer-input" placeholder="Write your answer here..."></textarea>
+        <div class="saved-note">Your answer is saved automatically for this page.</div>
+        <div class="button-row">
+          <button class="prev-btn">Back</button>
+          <button id="yesButton" class="yes-btn">Yes, I will</button>
+        </div>
+      </section>
+
+      <div id="finalMessage" class="final-message hidden">
+        <div class="celebration-container">
+          <div class="emoji-burst">💍</div>
+          <div class="emoji-burst">❤️</div>
+          <div class="emoji-burst">💕</div>
+          <div class="emoji-burst">🎉</div>
+          <div class="emoji-burst">✨</div>
+        </div>
+        <h2>Forever starts now! 💕</h2>
+        <p>My love, I am the happiest man alive. You said YES! 🎊💍❤️</p>
+        <p class="celebration-text">This is the beginning of our beautiful forever together.</p>
+        <div class="summary-note">Here is what you shared:</div>
+        <div id="answerSummary" class="summary-list"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
