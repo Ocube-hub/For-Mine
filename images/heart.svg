@@ -1,0 +1,11 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .heart-fill {
+        fill: #d35d6e;
+        filter: drop-shadow(0 4px 8px rgba(211, 93, 110, 0.3));
+      }
+    </style>
+  </defs>
+  <path class="heart-fill" d="M50,85 C25,70 10,55 10,40 C10,28 18,18 28,18 C35,18 42,23 50,30 C58,23 65,18 72,18 C82,18 90,28 90,40 C90,55 75,70 50,85 Z"/>
+</svg>
